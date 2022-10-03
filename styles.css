@@ -1,0 +1,91 @@
+body {
+  font-family: url(https://fonts.google.com/specimen/Red+Hat+Display);
+  font-weight: 500;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.contain {
+  height: 98vh;
+}
+
+.container {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  height: 40rem;
+}
+
+.card {
+  border-radius: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  border-radius: 1em 1em 0 0;
+}
+
+.card-title {
+  font-weight: 900;
+}
+
+.price {
+  margin-left: 1em;
+  color: hsl(224, 23%, 55%);
+}
+
+.annual {
+  margin-left: 1rem;
+}
+
+.link-chng {
+  margin-left: 3.5rem;
+}
+
+.pay {
+  border-radius: 0.6em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: white;
+  width: 17rem;
+  background-color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+.pay:hover {
+  color: white;
+  opacity: 0.6;
+}
+
+.plan {
+  background-color: hsl(225, 100%, 98%);
+}
+
+.cancel {
+  font-size: 16px;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+}
+
+.change {
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+}
+
+.change:hover {
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 350px) {
+  .link-chng {
+    margin-left: 1em;
+  }
+  .pay {
+    width: auto;
+  }
+}
